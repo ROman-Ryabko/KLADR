@@ -1,0 +1,44 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KLADR.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="tblKladrKladr" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[dbo].[tblKladrKladr]</Value>
+    </Setting>
+    <Setting Name="tblKladrDoma" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[dbo].[tblKladrDoma]</Value>
+    </Setting>
+    <Setting Name="tblKladrStreet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[dbo].[tblKladrStreet]</Value>
+    </Setting>
+    <Setting Name="KladrDbf" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">KLADR.DBF</Value>
+    </Setting>
+    <Setting Name="StreetDbf" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">STREET.DBF</Value>
+    </Setting>
+    <Setting Name="DomaDbf" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DOMA.DBF</Value>
+    </Setting>
+    <Setting Name="BlockSize" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="DBF_Template" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Driver={{Microsoft dBase Driver (*.dbf)}};Locale Identifier=866;CollatingSequence=International;SourceType=DBF;SourceDB={0}\{1};Exclusive=No; Collate=Machine;NULL=NO;DELETED=NO;BACKGROUNDFETCH=NO;</Value>
+    </Setting>
+    <Setting Name="CpInEncoding" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">866</Value>
+    </Setting>
+    <Setting Name="CpOutEncoding" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">866</Value>
+    </Setting>
+    <Setting Name="dbconnect" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=SQLEXPRESS;Initial Catalog=kladr;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=SQLEXPRESS;Initial Catalog=kladr;Integrated Security=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
